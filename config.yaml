@@ -1,0 +1,39 @@
+# system configuration
+system:
+  env: "public" # Change to "develop" to skip authentication for development mode
+  addr: ""
+  port: 8888
+  db-type: "mysql"
+  oss-type: "local"
+  use-multipoint: false
+
+# mysql connect configuration
+mysql:
+  path: "127.0.0.1:3306"
+  config: "charset=utf8mb4&parseTime=True&loc=Local"
+  db-name: "shuwen"
+  username: "root"
+  password: "jianxiyan."
+  max-idle-conns: 10
+  max-open-conns: 100
+  log-mode: false
+  log-zap: false
+# redis configuration
+redis:
+  max-idle: 16
+  max-active: 0
+  idle-timeout: 300
+  db: 0
+  addr: "127.0.0.1:6379"
+  password: ""
+# zap logger configuration
+zap:
+  level: "info"
+  format: "console"
+  prefix: "[GIN-VUE-SHUWEN]"
+  director: "log"
+  link-name: "latest_log"
+  show-line: true
+  encode-level: "LowercaseColorLevelEncoder"
+  stacktrace-key: "stacktrace"
+  log-in-console: true

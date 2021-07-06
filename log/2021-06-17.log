@@ -1,0 +1,6 @@
+[GIN-VUE-SHUWEN]2021/06/17 - 17:40:50.029	[34minfo[0m	/Users/jianxiyan/home/练习/go/go-project-mune/src/github.com/dscheduler/initialize/gorm.go:66	MySQL启动成功
+[GIN-VUE-SHUWEN]2021/06/17 - 17:40:50.289	[34minfo[0m	/Users/jianxiyan/home/练习/go/go-project-mune/src/github.com/dscheduler/initialize/gorm.go:40	register table success
+[GIN-VUE-SHUWEN]2021/06/17 - 17:40:50.289	[34minfo[0m	/Users/jianxiyan/home/练习/go/go-project-mune/src/github.com/dscheduler/initialize/router.go:14	use middleware logger
+[GIN-VUE-SHUWEN]2021/06/17 - 17:40:50.289	[34minfo[0m	/Users/jianxiyan/home/练习/go/go-project-mune/src/github.com/dscheduler/initialize/router.go:17	use middleware cors
+[GIN-VUE-SHUWEN]2021/06/17 - 17:40:50.289	[34minfo[0m	/Users/jianxiyan/home/练习/go/go-project-mune/src/github.com/dscheduler/initialize/router.go:24	router register success
+[GIN-VUE-SHUWEN]2021/06/17 - 17:40:50.289	[34minfo[0m	/Users/jianxiyan/home/练习/go/go-project-mune/src/github.com/dscheduler/core/server.go:30	server run success on 	{"address": ":8888"}
